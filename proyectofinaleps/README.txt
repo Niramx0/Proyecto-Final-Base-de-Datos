@@ -1,0 +1,1 @@
+para el buen funcionamiento del código asegurarse en el archivo conexión.java el user y contraseña sean los de el workbench y que cada archivo este conectado con la base de datos con el nombre que se le haya asignado al descargar
