@@ -25,7 +25,7 @@ DROP TABLE IF EXISTS `historial_medico`;
 CREATE TABLE `historial_medico` (
   `id_cita` int NOT NULL,
   `id_usuario` int NOT NULL,
-  `diagnostico` varchar(45) NOT NULL,
+  `diagnostico` varchar(120) NOT NULL,
   `medicamentos` int DEFAULT NULL,
   `cantidad_med` varchar(45) DEFAULT NULL,
   PRIMARY KEY (`id_cita`,`id_usuario`),
@@ -56,3 +56,4 @@ UNLOCK TABLES;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
 -- Dump completed on 2025-03-06 21:33:40
+
